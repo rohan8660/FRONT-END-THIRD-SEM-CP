@@ -1,0 +1,68 @@
+	body{
+			background-color: #e2ddeb;
+		}
+		.paint{
+	 height: 150px;
+  width: 100%;
+  padding-top: 15px;
+  background-color:#e89313;
+  color: #e2ddeb;
+  
+}
+
+		h1{
+			color: #2e5938;
+		}
+		.topnav {
+  overflow: hidden;
+  background-color:#0f0204;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+  div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 530px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: 300px;
+  background-attachment:fixed;
+}
+
+div.desc {
+  padding: 18px;
+  background-color: #f5cbf4;
+  
+}
+.down{
+   border: 1px solid black;
+  margin:1000px 0px 7px 0px;
+  width: 100%;
+  height:450px;
+ 
+  background-color: #e89313;
+}

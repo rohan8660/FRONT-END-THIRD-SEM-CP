@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="ticket.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ticket Booking Form</title>
+  <link rel="stylesheet" href="f.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <script>
+function myFunction() {
+  alert("Thank You !😀");
+}
+</script>
+
+</head>
+<body>
+		<div class="topnav">
+ 	 <a  href="my.html">Home</a>
+ 
+  <a href="act.html">Activities</a>
+  <a  class="active" href="Ticket.html">Ticket</a>
+  <a href="food.html">Food</a>
+  <a href="Contact.html">Contact</a>
+</div>
+	<div class="booking">
+		
+		<div class="booking-form">
+			<h1>Ticket Booking</h1></center>
+			<center><label>Name:</label>
+			<input type="text"  class="form-control" placeholder="Enter name">
+
+			<div class="radio-btn">
+				<label>Male</label>
+			<input type="radio" class="btn" name="check" checked="checked">
+			<label>Female</label>
+			<input type="radio" class="btn" name="check">
+		</div>
+		<label>Date:</label>
+		 <input type="text" id="datepicker">
+			
+		<br>
+		<br>
+		
+			<label>Price:</label>
+			<select class="custom-select">
+			<option value="1">Standard  ₹60\-</option>
+			<option value="2">Under 3 Years  ₹0\-</option>
+			<option value="2">Senior(60+)  ₹30\-</option>
+			</select>
+		<br>
+		<br>
+		
+
+		
+			<label>Tickets:</label>
+			<select class="custom-select">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			</select>
+		
+
+		<br>
+		<br>
+		<br>
+		
+		<div class="input-grp">
+			
+			<button  type="button" class="btn btn-primary flight"  onclick="myFunction()">Submit</button>
+		</div>
+		
+	
+		
+	</div>
+
+</body>
+</html>

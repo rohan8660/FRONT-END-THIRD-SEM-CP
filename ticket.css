@@ -1,0 +1,120 @@
+body{
+			background-image: url("bac.jpg");
+			background-size: cover;
+			background-position: center;
+
+		
+		}
+		.topnav {
+  overflow: hidden;
+  background-color:#0f0204;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ffad99;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+		
+		h1{
+			color: #fff;
+		}
+		.booking{
+			max-width: 350px;
+			border: 1px solid #fff;
+			background-color: #000;
+			margin: 10% auto 0;
+			
+		}
+		.radio-btn{
+			margin: 0 20px;
+		}
+		.radio-btn .btn{
+			margin: 20px 10px 20px 0;
+			box-shadow: none;
+		}
+		.radio-btn .btn::after{
+			content: '';
+			height: 15px;
+			width: 15px;
+			top: -2px
+			left: -1px;
+			background-color: #fff;
+			position: relative;
+			display: inline-block;
+			border: 4px solid #fff;
+			visibility: visible;
+		
+
+		}
+
+		.radio-btn .btn:checked::after{
+			content: '';
+			background-color: #000;
+			transition: 0.5s;
+		}
+		.radio-btn span{
+			color: #fff;
+			margin-right: 5px;
+			font-size: 12px;
+		}
+		.booking-form{
+			padding: 0 20px 20px;
+		}
+		.booking-form label{
+			margin-bottom: 5px;
+			margin-top: 10px;
+			font-size: 25px;
+			color: #fff;
+
+			
+		}
+		input::placeholder{
+			color: #fff !important;
+			background-color: #fff ;
+		}
+		.input-grp{
+			width: 151px;
+			display: inline-block;
+		}
+		.form-control{
+			font-size: 18px!important;
+			border-radius: 0!important;
+			color: #fff!important;
+			background: transparent!important;
+			box-shadow: none!important;
+		}
+
+	
+		.custom-select{
+			color:#fff!important;
+			font-size: 18px!important;
+			border: 1px solid #ced4da!important;
+			box-shadow: none!important;
+			border-radius: 0!important;
+			background: transparent!important;
+
+		}
+
+		.custom-select option{
+			color: #333;
+
+		}
+		.flight{
+			width: 100%
+			padding: 12px;
+
+		}
